@@ -1,0 +1,19 @@
+.address-label {
+  font-family: "Helvetica", arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.name,
+.street {
+  display: flex;
+  margin-bottom: 0.1em;
+  margin-right: 0.5em;
+}
+
+.city,
+.state,
+.postal-code {
+  display: inline;
+  margin-right: 0.5em;
+}

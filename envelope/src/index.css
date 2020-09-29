@@ -1,0 +1,48 @@
+.envelope {
+  border: 1px solid #ccc;
+  width: 564px;
+  min-height: 300px;
+  padding: 20px;
+  display: flex;
+}
+
+.address-label {
+  font-family: "Helvetica", arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.receiver {
+  position: relative;
+  left: 100px;
+  top: 150px;
+}
+
+.sender {
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+
+.stamp {
+  position: relative;
+  width: 40%;
+  height: 40%;
+  left: 100px;
+  top: 5px;
+}
+
+.name,
+.street {
+  display: flex;
+  margin-bottom: 0.1em;
+  margin-right: 0.5em;
+}
+
+.city,
+.state,
+.postal-code {
+  display: inline;
+  margin-right: 0.5em;
+}
